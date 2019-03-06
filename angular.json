@@ -13,15 +13,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/rdm-pwa",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/manifest.json",
-              "src/service-worker.js",
               "src/assets"
             ],
             "styles": [
@@ -79,8 +77,6 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/manifest.json",
-              "src/service-worker.js",
               "src/assets"
             ]
           }

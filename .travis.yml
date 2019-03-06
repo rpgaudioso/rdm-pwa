@@ -11,8 +11,7 @@ before_script:
 script:
 - yarn lint
 - yarn test-headless
-- yarn gen-sw
-- ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/
+- travis-deploy
 deploy:
   provider: pages
   skip_cleanup: true

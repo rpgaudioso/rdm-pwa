@@ -11,7 +11,7 @@ before_script:
 script:
 - yarn lint
 - yarn test-headless
-- travis-deploy
+- yarn travis-deploy
 deploy:
   provider: pages
   skip_cleanup: true

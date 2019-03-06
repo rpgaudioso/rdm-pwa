@@ -1,11 +1,11 @@
 {
-  "short_name": "RDM",
-  "name": "Rei da mesa",
-  "start_url": "/",
+  "name": "rdm-pwa",
+  "short_name": "rdm-pwa",
   "theme_color": "#3f0120",
-  "background_color": "#ffffff",
+  "background_color": "#fafafa",
   "display": "standalone",
-  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "\/assets/icons/android-icon-36x36.png",

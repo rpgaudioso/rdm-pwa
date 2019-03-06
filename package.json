@@ -12,7 +12,7 @@
     "e2e": "ng e2e",
     "gen-sw": "sw-precache --root=dist --config=precache-config.js",
     "static-serve": "cd dist && live-server --port=8080 --host=localhost --entry-file=/index.html",
-    "travis-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa"
+    "travis-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/"
   },
   "private": true,
   "dependencies": {
@@ -24,7 +24,9 @@
     "@angular/http": "^7.2.7",
     "@angular/platform-browser": "^7.2.7",
     "@angular/platform-browser-dynamic": "^7.2.7",
+    "@angular/pwa": "0.12",
     "@angular/router": "^7.2.7",
+    "@angular/service-worker": "^7.2.7",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"

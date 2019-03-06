@@ -9,14 +9,14 @@ branches:
 before_script:
   - yarn global add @angular/cli
 script:
-- ng lint
-- yarn run test-headless
-- ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/
-
+- yarn lint
+- yarn test-headless
+- yarn gen-sw
+- yarn travis-deploy
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist/rdm-pwa
+  local_dir: dist
   on:
     branch: master

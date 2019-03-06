@@ -7,10 +7,10 @@ branches:
   only:
   - master
 before_script:
-  - npm install -g @angular/cli
+  - yarn global add @angular/cli
 script:
 - ng lint
-- npm run test-headless
+- yarn run test-headless
 - ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/
 
 deploy:

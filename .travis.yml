@@ -12,3 +12,11 @@ script:
 - ng lint
 - npm run test-headless
 - ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/rdm-pwa
+  on:
+    branch: master

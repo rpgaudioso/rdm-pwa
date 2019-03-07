@@ -5,10 +5,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-prod": "ng build --prod",
+    "lint": "ng lint",
     "test": "ng test",
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "static-serve": "cd dist && live-server --port=8080 --host=localhost --entry-file=/index.html",
+    "travis-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/"
   },
   "private": true,
   "dependencies": {
@@ -20,7 +23,9 @@
     "@angular/http": "^7.2.7",
     "@angular/platform-browser": "^7.2.7",
     "@angular/platform-browser-dynamic": "^7.2.7",
+    "@angular/pwa": "0.12",
     "@angular/router": "^7.2.7",
+    "@angular/service-worker": "^7.2.7",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
@@ -41,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.0",
     "karma-jasmine": "~1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "live-server": "^1.2.1",
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",

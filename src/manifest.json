@@ -1,7 +1,7 @@
 {
   "name": "rdm-pwa",
   "short_name": "rdm-pwa",
-  "theme_color": "#1976d2",
+  "theme_color": "#3f0120",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",

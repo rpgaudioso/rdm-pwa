@@ -11,7 +11,8 @@
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
     "static-serve": "cd dist && live-server --port=8080 --host=localhost --entry-file=/index.html",
-    "travis-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/"
+    "travis-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/",
+    "compodoc": "npx compodoc -p src/tsconfig.app.json"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "@angular/cli": "~7.3.4",
     "@angular/compiler-cli": "^7.2.7",
     "@angular/language-service": "^7.2.7",
+    "@compodoc/compodoc": "^1.1.9",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",

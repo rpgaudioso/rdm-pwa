@@ -23,7 +23,7 @@ jobs:
       - run: yarn global add @angular/cli
       - run: yarn lint
       - run: yarn test-headless
-      - run: yarn ci-deploy
+      - run: yarn build-ci
       - run: echo ${GITHUB_TOKEN}
-      - run: npx ngh --repo=https://c54a77289d0e629147190cd3e148f318f432e0d3@github.com/rpgaudioso/rdm-pwa.git
+      - run: npx ngh --repo=https://f17fa48896e426eb623f33a8df703a08fb28304c@github.com/rpgaudioso/rdm-pwa.git
       # - run: npx ngh --token=$GITHUB_TOKEN --name="rpgaudioso" --email=rpgaudioso@gmail.com --no-silent=true

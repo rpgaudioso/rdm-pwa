@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:9.9-browsers
+      - image: circleci/node:11.11-browsers
         environment:
           CHROME_BIN: "/usr/bin/google-chrome"
     working_directory: ~/repo
@@ -13,6 +13,7 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
 
+      - run: yarn global add @angular/cli
       - run: yarn install
 
       - save_cache:
@@ -20,7 +21,6 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: yarn global add @angular/cli
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn build-ci

@@ -11,7 +11,7 @@
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
     "static-serve": "cd dist && live-server --port=8080 --host=localhost --entry-file=/index.html",
-    "travis-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/",
+    "ci-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/",
     "compodoc": "npx compodoc -p src/tsconfig.app.json"
   },
   "private": true,
@@ -40,6 +40,7 @@
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
+    "angular-cli-ghpages": "^0.5.3",
     "codelyzer": "~4.2.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",

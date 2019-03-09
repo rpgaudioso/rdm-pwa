@@ -25,5 +25,5 @@ jobs:
       - run: yarn test-headless
       - run: yarn build-ci
       - run: echo ${GITHUB_TOKEN}
-      - run: npx ngh --repo=https://f17fa48896e426eb623f33a8df703a08fb28304c@github.com/rpgaudioso/rdm-pwa.git
+      - run: npx ngh --repo="https://${GITHUB_TOKEN}@github.com/rpgaudioso/rdm-pwa.git"
       # - run: npx ngh --token=$GITHUB_TOKEN --name="rpgaudioso" --email=rpgaudioso@gmail.com --no-silent=true

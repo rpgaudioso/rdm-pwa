@@ -20,8 +20,8 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: yarn global add @angular/cli
-      - run: yarn global add ngh
+      - run: sudo yarn global add @angular/cli
+      - run: sudo yarn global add ngh
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn ci-deploy

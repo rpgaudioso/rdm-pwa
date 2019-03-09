@@ -1,18 +1,18 @@
 {
   "name": "rdm-pwa",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "start": "ng serve",
     "build": "ng build",
-    "build-prod": "ng build --prod --no-progress",
-    "ci-build-gh": "ng build --prod --no-progress --base-href=/rdm-pwa/ ",
+    "build-prod": "yarn build --prod --no-progress",
+    "ci-build-gh": "yarn build-prod --base-href=/rdm-pwa/ ",
     "ci-deploy-gh": "npx ngh --repo=https://${GITHUB_TOKEN}@github.com/rpgaudioso/rdm-pwa.git --name=rpgaudioso --email=rpgaudioso@gmail.com --no-silent=true",
     "lint": "ng lint",
     "test": "ng test --no-progress",
-    "test-headless": "ng test --no-progress --watch=false --browsers=ChromeHeadless",
+    "test-headless": "yarn test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
-    "static-serve": "cd dist && live-server --port=8080 --host=localhost --entry-file=/index.html",
-    "compodoc": "npx compodoc -p src/tsconfig.app.json"
+    "compodoc": "npx compodoc -p src/tsconfig.app.json",
+    "live-serve": "cd dist && live-server --port=8080 --host=localhost --entry-file=/index.html"
   },
   "private": true,
   "dependencies": {

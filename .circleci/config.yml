@@ -27,5 +27,5 @@ jobs:
       - run: echo ${GITHUB_TOKEN}
       # - run: npx ngh --token=$GITHUB_TOKEN --name="rpgaudioso" --email=rpgaudioso@gmail.com --no-silent=true
       - run:
-        command: |
-          ngh --token $GITHUB_TOKEN
+          command: |
+            ngh --token $GITHUB_TOKEN

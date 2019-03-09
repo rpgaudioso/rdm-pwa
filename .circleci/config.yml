@@ -12,16 +12,22 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-
       - run: yarn global add @angular/cli
       - run: yarn install
-
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn ci-build-gh
       - run: yarn ci-deploy-gh
+
+workflows:
+  version: 2
+  main:
+    jobs:
+    - build:
+        filters:
+          branches:
+            only: master

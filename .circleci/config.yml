@@ -20,13 +20,10 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run: sudo yarn global add @angular/cli
-      - run: sudo yarn global add ngh
+      - run: yarn global add @angular/cli
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn ci-deploy
       - run: echo ${GITHUB_TOKEN}
+      - run: npx ngh --repo=https://c54a77289d0e629147190cd3e148f318f432e0d3@github.com/rpgaudioso/rdm-pwa.git
       # - run: npx ngh --token=$GITHUB_TOKEN --name="rpgaudioso" --email=rpgaudioso@gmail.com --no-silent=true
-      - run:
-          command: |
-            ngh --token $GITHUB_TOKEN --no-silent=true

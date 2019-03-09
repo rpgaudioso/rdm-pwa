@@ -21,6 +21,7 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       - run: yarn global add @angular/cli
+      - run: yarn global add ngh
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn ci-deploy
@@ -28,4 +29,4 @@ jobs:
       # - run: npx ngh --token=$GITHUB_TOKEN --name="rpgaudioso" --email=rpgaudioso@gmail.com --no-silent=true
       - run:
           command: |
-            npx ngh --token $GITHUB_TOKEN
+            ngh --token $GITHUB_TOKEN

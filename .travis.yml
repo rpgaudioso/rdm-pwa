@@ -12,11 +12,5 @@ before_script:
 script:
 - yarn lint
 - yarn test-headless
-- yarn build-ci
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: dist
-  on:
-    branch: master
+- yarn ci-build-gh
+- yarn ci-deploy-gh

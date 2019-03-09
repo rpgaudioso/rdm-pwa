@@ -24,4 +24,4 @@ jobs:
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn ci-deploy
-      - run: npx ngh --repo=https://GH_TOKEN@github.com/rpgaudioso/rdm-pwa.git
+      - run: npx ngh --repo=https://GITHUB_TOKEN@github.com/rpgaudioso/rdm-pwa.git

@@ -5,7 +5,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-prod": "ng build --prod --no-progress",
-    "build-ci": "ng build --prod --no-progress --base-href https://rpgaudioso.github.io/rdm-pwa/",
+    "build-ci": "ng build --prod --no-progress",
     "lint": "ng lint",
     "test": "ng test --no-progress",
     "test-headless": "ng test --no-progress --watch=false --browsers=ChromeHeadless",

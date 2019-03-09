@@ -1,19 +1,19 @@
 {
   "configVersion": 1,
-  "timestamp": 1552170730076,
-  "index": "/index.html",
+  "timestamp": 1552171048473,
+  "index": "/rdm-pwa/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/favicon.ico",
-        "/index.html",
-        "/main.b448aef2063b5e89f52d.js",
-        "/polyfills.a9824751764fbcd6131c.js",
-        "/runtime.a5dd35324ddfd942bef1.js",
-        "/styles.3ff695c00d717f2d2a11.css"
+        "/rdm-pwa/favicon.ico",
+        "/rdm-pwa/index.html",
+        "/rdm-pwa/main.b448aef2063b5e89f52d.js",
+        "/rdm-pwa/polyfills.a9824751764fbcd6131c.js",
+        "/rdm-pwa/runtime.a5dd35324ddfd942bef1.js",
+        "/rdm-pwa/styles.3ff695c00d717f2d2a11.css"
       ],
       "patterns": []
     },
@@ -22,34 +22,34 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/icons/icon-128x128.png",
-        "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
-        "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
-        "/assets/icons/icon-512x512.png",
-        "/assets/icons/icon-72x72.png",
-        "/assets/icons/icon-96x96.png"
+        "/rdm-pwa/assets/icons/icon-128x128.png",
+        "/rdm-pwa/assets/icons/icon-144x144.png",
+        "/rdm-pwa/assets/icons/icon-152x152.png",
+        "/rdm-pwa/assets/icons/icon-192x192.png",
+        "/rdm-pwa/assets/icons/icon-384x384.png",
+        "/rdm-pwa/assets/icons/icon-512x512.png",
+        "/rdm-pwa/assets/icons/icon-72x72.png",
+        "/rdm-pwa/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/icons/icon-128x128.png": "cbbdebc1cf3dd650188878a12fb6a9d4005783e1",
-    "/assets/icons/icon-144x144.png": "f58b176c38a2729cd6cdffa86441dc0fb3b1b3a3",
-    "/assets/icons/icon-152x152.png": "a7f97323b3dfbb93aeeeebe76cfff69952e31dbd",
-    "/assets/icons/icon-192x192.png": "e409845c1cc5cfb16c6581bd7c1cdc3bf5cecd7f",
-    "/assets/icons/icon-384x384.png": "38307b62d2a5e0994a86d56f50699693876509b8",
-    "/assets/icons/icon-512x512.png": "416af46da2decdd34126a9691517cf2be5f5c0b0",
-    "/assets/icons/icon-72x72.png": "8632854597a9047695a5eb46d867903af9f501d5",
-    "/assets/icons/icon-96x96.png": "5c5c5d8e7ece1c7399b749b0c2788d1066ad8892",
-    "/favicon.ico": "6e7d5b960e5c2ce156c5c6e8f0a2d4e59b91c651",
-    "/index.html": "64bb1f31aba36fa140867c86774fc23d05bb73f8",
-    "/main.b448aef2063b5e89f52d.js": "ad125bd6ddf509e73793cd61555e3f38f01d90ef",
-    "/polyfills.a9824751764fbcd6131c.js": "9523895b2983416284537971454a8e67b59b13ec",
-    "/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/rdm-pwa/assets/icons/icon-128x128.png": "cbbdebc1cf3dd650188878a12fb6a9d4005783e1",
+    "/rdm-pwa/assets/icons/icon-144x144.png": "f58b176c38a2729cd6cdffa86441dc0fb3b1b3a3",
+    "/rdm-pwa/assets/icons/icon-152x152.png": "a7f97323b3dfbb93aeeeebe76cfff69952e31dbd",
+    "/rdm-pwa/assets/icons/icon-192x192.png": "e409845c1cc5cfb16c6581bd7c1cdc3bf5cecd7f",
+    "/rdm-pwa/assets/icons/icon-384x384.png": "38307b62d2a5e0994a86d56f50699693876509b8",
+    "/rdm-pwa/assets/icons/icon-512x512.png": "416af46da2decdd34126a9691517cf2be5f5c0b0",
+    "/rdm-pwa/assets/icons/icon-72x72.png": "8632854597a9047695a5eb46d867903af9f501d5",
+    "/rdm-pwa/assets/icons/icon-96x96.png": "5c5c5d8e7ece1c7399b749b0c2788d1066ad8892",
+    "/rdm-pwa/favicon.ico": "6e7d5b960e5c2ce156c5c6e8f0a2d4e59b91c651",
+    "/rdm-pwa/index.html": "e96183889073e48c62d57af6e656f64b0b2b2a5b",
+    "/rdm-pwa/main.b448aef2063b5e89f52d.js": "ad125bd6ddf509e73793cd61555e3f38f01d90ef",
+    "/rdm-pwa/polyfills.a9824751764fbcd6131c.js": "9523895b2983416284537971454a8e67b59b13ec",
+    "/rdm-pwa/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/rdm-pwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {

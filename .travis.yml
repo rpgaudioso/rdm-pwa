@@ -6,6 +6,7 @@ sudo: required
 branches:
   only:
   - master
+# acredito não ser necessário instalar o angular/cli globarl ... ele vai como dev dependency
 before_script:
   - yarn global add @angular/cli
 script:

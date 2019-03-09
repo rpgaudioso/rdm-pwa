@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-prod": "ng build --prod --no-progress",
-    "lint": "ng lint --no-progress",
+    "lint": "ng lint",
     "test": "ng test --no-progress",
     "test-headless": "ng test --no-progress --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",

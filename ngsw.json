@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1552174029355,
+  "timestamp": 1552174350695,
   "index": "/rdm-pwa/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/rdm-pwa/favicon.ico",
         "/rdm-pwa/index.html",
-        "/rdm-pwa/main.3260b1b74e8974c75c0c.js",
+        "/rdm-pwa/main.04569c5843d34bdd7a4f.js",
         "/rdm-pwa/polyfills.a9824751764fbcd6131c.js",
         "/rdm-pwa/runtime.a5dd35324ddfd942bef1.js",
         "/rdm-pwa/styles.3ff695c00d717f2d2a11.css"
@@ -45,8 +45,8 @@
     "/rdm-pwa/assets/icons/icon-72x72.png": "8632854597a9047695a5eb46d867903af9f501d5",
     "/rdm-pwa/assets/icons/icon-96x96.png": "5c5c5d8e7ece1c7399b749b0c2788d1066ad8892",
     "/rdm-pwa/favicon.ico": "6e7d5b960e5c2ce156c5c6e8f0a2d4e59b91c651",
-    "/rdm-pwa/index.html": "e81da147ac3ead3a0e1ecbf6b84fb58e9af4f194",
-    "/rdm-pwa/main.3260b1b74e8974c75c0c.js": "2a8a211e738e422a081259c5e98d996090166351",
+    "/rdm-pwa/index.html": "3c9b0495fbd6800d6db328079bee0454b6e12f6f",
+    "/rdm-pwa/main.04569c5843d34bdd7a4f.js": "6d3baf467124702f66c14612a72b3fded2fca7da",
     "/rdm-pwa/polyfills.a9824751764fbcd6131c.js": "9523895b2983416284537971454a8e67b59b13ec",
     "/rdm-pwa/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/rdm-pwa/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"

@@ -11,7 +11,7 @@
     "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "e2e": "ng e2e",
     "static-serve": "cd dist && live-server --port=8080 --host=localhost --entry-file=/index.html",
-    "ci-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/",
+    "ci-deploy": "ng build --prod --base-href https://rpgaudioso.github.io/rdm-pwa/ --no-progress",
     "compodoc": "npx compodoc -p src/tsconfig.app.json"
   },
   "private": true,

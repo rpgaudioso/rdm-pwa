@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1552786534165,
+  "timestamp": 1552791836586,
   "index": "/rdm-pwa/index.html",
   "assetGroups": [
     {
@@ -45,7 +45,7 @@
     "/rdm-pwa/assets/icons/icon-72x72.png": "8632854597a9047695a5eb46d867903af9f501d5",
     "/rdm-pwa/assets/icons/icon-96x96.png": "5c5c5d8e7ece1c7399b749b0c2788d1066ad8892",
     "/rdm-pwa/favicon.ico": "6e7d5b960e5c2ce156c5c6e8f0a2d4e59b91c651",
-    "/rdm-pwa/index.html": "22e5d3aecec821ab5fbd463dd832db9fcfb6cee2",
+    "/rdm-pwa/index.html": "20d3feab69341fe0474c10a078008332ce53c911",
     "/rdm-pwa/main.2fa8cb7931122b623f4b.js": "3858b47d2fdd894aa20bfd2cfb8c7a61d1a2acfa",
     "/rdm-pwa/polyfills.a9824751764fbcd6131c.js": "9523895b2983416284537971454a8e67b59b13ec",
     "/rdm-pwa/runtime.a5dd35324ddfd942bef1.js": "b62956c2192bfe5516d6374e753773901ed50ec5",

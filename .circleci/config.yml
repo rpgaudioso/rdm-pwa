@@ -21,8 +21,8 @@ jobs:
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn ci-build-gh
+      - run: touch dist/CNAME && echo "reidamesa.com" > dist/CNAME
       - run: yarn ci-deploy-gh
-      - run: touch CNAME && echo "reidamesa.com" > CNAME
 
 workflows:
   version: 2

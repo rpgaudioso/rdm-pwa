@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ServiceWorkerModule } from '@angular/service-worker';
-import { AuthServiceConfig, GoogleLoginProvider, SocialLoginModule } from "angular-6-social-login";
+import { AuthServiceConfig, GoogleLoginProvider, SocialLoginModule } from 'angular-6-social-login';
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { LoginHelperComponent } from './login-helper/login-helper.component';

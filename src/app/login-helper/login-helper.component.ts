@@ -34,11 +34,11 @@ export class LoginHelperComponent implements OnInit {
     }).then((credential: any) => {
       console.log('credential:', credential);
     }, (error: any) => {
-      if (error.type === 'noCredentialsAvailable') {
-        console.log('noCredentialsAvailable -> show login');
-      } else {
-        console.log('error:', error);
-      }
+      // if (error.type === 'noCredentialsAvailable') {
+      //   console.log('noCredentialsAvailable -> show login');
+      // } else {
+      console.log('error:', error);
+      // }
     });
   }
 

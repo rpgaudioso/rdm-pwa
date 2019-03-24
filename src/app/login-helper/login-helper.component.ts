@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService, GoogleLoginProvider } from 'angular-6-social-login';
 import { environment } from 'src/environments/environment';
 import { DynamicScriptLoaderService } from './../shared/services/dynamic-script-loader.service';
 declare var googleyolo: any;
+declare var auth2: any;
 
 @Component({
   selector: 'app-login-helper',
@@ -10,7 +12,25 @@ declare var googleyolo: any;
 })
 export class LoginHelperComponent implements OnInit {
 
-  constructor(private scriptLoader: DynamicScriptLoaderService) { }
+
+  constructor(private socialAuthService: AuthService, private scriptLoader: DynamicScriptLoaderService) { }
+
+  public socialSignIn(socialPlatform: string) {
+    let socialPlatformProvider: any;
+    if (socialPlatform === 'google') {
+      socialPlatformProvider = GoogleLoginProvider.PROVIDER_ID;
+    }
+
+    this.socialAuthService.signIn(socialPlatformProvider).then(
+      (userData) => {
+        console.log(socialPlatform + ' sign in data : ', userData);
+        // Now sign-in with userData
+        // ...
+
+      }
+    );
+  }
+
 
   ngOnInit(): void {
     // const googleyolo_url = 'https://smartlock.google.com/client';

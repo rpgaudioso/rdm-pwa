@@ -18,11 +18,11 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-      - run: mkdir -p public && touch public/CNAME && echo "reidamesa.com" > public/CNAME
       - run: yarn lint
       - run: yarn test-headless
       - run: yarn ci-build-gh
       - run: yarn ci-deploy-gh
+      - run: touch CNAME && echo "reidamesa.com" > CNAME
 
 workflows:
   version: 2

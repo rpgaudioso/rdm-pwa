@@ -5,7 +5,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-prod": "yarn build --prod --no-progress",
-    "ci-build-gh": "yarn build-prod",
+    "ci-build-gh": "yarn build-prod --base-href=/rdm-pwa/ ",
     "ci-deploy-gh": "npx ngh --repo=https://${GITHUB_TOKEN}@github.com/rpgaudioso/rdm-pwa.git --name=rpgaudioso --email=rpgaudioso@gmail.com --message='[ci skip]' --no-silent=true",
     "lint": "ng lint",
     "test": "ng test --no-progress",

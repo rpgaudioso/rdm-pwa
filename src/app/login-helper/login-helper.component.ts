@@ -13,13 +13,15 @@ export class LoginHelperComponent implements OnInit {
   constructor(private scriptLoader: DynamicScriptLoaderService) { }
 
   ngOnInit(): void {
-    const googleyolo_url = 'https://smartlock.google.com/client';
+    // const googleyolo_url = 'https://smartlock.google.com/client';
 
-    this.scriptLoader.load(googleyolo_url)
-      .then(() => {
-        googleyolo.setTimeouts(5000);
-        this.openCredentialSelector();
-      });
+    // this.scriptLoader.load(googleyolo_url)
+    //   .then(() => {
+    //     googleyolo.setTimeouts(5000);
+    //     this.openCredentialSelector();
+    //   });
+
+    this.openCredentialSelector();
   }
 
   openCredentialSelector() {

@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
 
-  GOOGLE_API_CLIENT_ID: '102521934122-c5bttnme71ek39u67api26a49ih1ad56.apps.googleusercontent.com'
+  GOOGLE_API_CLIENT_ID: '45938155579-jl7lg8r0le2rf13edtidqktc63l57qv4.apps.googleusercontent.com'
 };
 
 /*
